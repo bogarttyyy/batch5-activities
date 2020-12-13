@@ -1,0 +1,74 @@
+body {
+    position:relative;
+    margin:0 auto !important;
+}
+
+
+.Title{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.Date{
+    font-family: 'Source Serif Pro', serif;
+    color: #1508447d;
+    font-style: italic;
+    position: relative;
+    bottom: 20px;
+   
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}   
+
+.img {
+    border-style:solid;
+}
+
+.sidebar {
+    position : absolute;
+    height: 100%;
+    width: 10%;
+    background : #f05134a6;
+}
+.bottombar {
+    position : absolute;
+    height: 5%;
+    width: 100%;
+    background : #f05134de;
+}
+
+#statement {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+}
+
+#citeDescription {
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-style: italic;
+    bottom: 20px;
+}
+
+.Writing {
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-size: 18px;
+    
+}
