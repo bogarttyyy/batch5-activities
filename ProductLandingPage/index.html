@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Copic - Landing</title>
+</head>
+
+<body>
+    <!-- 1. a header element with id="header" -->
+
+    <header id="header">
+        <!-- 2. An image within the header element with id="header-img" -->
+        <img id="header-img" src="https://copic.jp/images/copic.svg" alt="Copic Logo">
+        <!-- 3. nav element with id="nav-bar" -->
+        <nav id="nav-bar">
+            <ul>
+                <!-- 4. three clickable elements inside the nav element, each with the class nav-link. -->
+                <!-- 5. click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. -->
+                <li class="nav-link"><a href="#copicink">CopicInk</a></li>
+                <li class="nav-link"><a href="#fanart">Usage Tips</a></li>
+                <li class="nav-link"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="img-container">
+            <img class="design-img" src="assets/design.jpg" alt="" style="width: 100%;">
+        </div>
+    </section>
+    <section id="copicink">
+
+        <img class="ink-logo" src="assets/copicink.svg" alt="">
+        <img class="colorsample" src="assets/color.png" alt="">
+        <img class="newink" src="assets/newrefill.png" alt="">
+
+        <h1>New Copic refill inks are available.</h1>
+        <p>
+            This is a refill ink that comes in a bottle with nozzle for users to refill their Copic Markers.
+            Its pen-shape form makes it compact and easy to fit in a Copic wallet for traveling while users may use
+            the ink directly to create ink art.
+        </p>
+
+        <a href="https://copic.jp/en/product/" class="myButton" target="_blank">Learn More</a>
+    </section>
+    <section id="fanart">
+        <h1>Beginner tips using Copic!</h1>
+        <br>
+        <!-- 6. An embedded product video with id="video". -->
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1ktiV-V24Og" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br>
+    </section>
+    <section id="contact">
+        <h1>Contact Us !</h1>
+        <br>
+        <!-- 7. a form element with a corresponding id="form". -->
+
+        <!-- 12. When I click the #submit element, the email is submitted to a static page. -->
+        <form id="form" action="./submitForm.html">
+            <label id="email-label" for="email">Email: </label>
+            <!-- 8. an input field with id="email -->
+            <!-- 9. The #email input field should have placeholder text -->
+            <!-- 10. #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
+            <input id="email" type="email" name="email" placeholder="Email Address" required>
+            <br>
+            <br>
+            <!-- 11. submit input with a corresponding id="submit" -->
+            <input id="submit" type="submit" value="Send">
+
+            <!-- USER STORIES 13-15 @ styles.css -->
+        </form>
+
+    </section>
+
+</body>
+
+</html>
