@@ -19,6 +19,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 1. [Chess Board Flexbox](https://sam-deguzman.github.io/batch5-activities/ChessBoardinFlex/index.html) - This chessboard page should demonstrate both page responsiveness and Flexbox display style.
 
 1. [Chess Board Grid](https://sam-deguzman.github.io/batch5-activities/ChessBoardinGrid/index.html) - I used the same style of the previous chessboard, I've edited images for the chess pieces, and used grid layout for the boxes this time.
+
+1. [Product Landing Page](https://sam-deguzman.github.io/batch5-activities/ProductLandingPage/index.html) - This is one of the final activities for HTML/CSS, I've tried different styles that I've learned so far, and also made sure the user stories are achieved.
 <!---```### Support or Contact```--->
 
 <!---Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.--->
