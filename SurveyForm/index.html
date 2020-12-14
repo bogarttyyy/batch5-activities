@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>League Of Legends / Wild Rift Survey</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-content">
+            <!-- 1. As a user, I want to see a title with id="title" in H1 sized text. -->
+            <h1 id="title">League Of Legends / Wild Rift Survey</h1>
+            <!-- 2. I want to see a short explanation with id="description" in P sized text. -->
+            <p id="description"><i>"What type of a player are you?"</i></p>
+        </div>
+    </header>
+
+    <!-- 3. I want to see a form with id="survey-form".-->
+    <form id="survey-form" method="GET">
+        <fieldset>
+            <div class="formgrid">
+
+                <!-- 4. I want to be required to enter my name in a field with id="name" . (Inside form element) -->
+                <input id="name" name="name" type="text" placeholder="Full Name" required />
+                <label for="name" id="name-label">Name: </label>
+
+                <!-- 5. I want to be required to enter an email in a field with id="email" . (Inside form element) -->
+                <!-- 6. I want to see a validation error if I enter an email that is not formatted correctly. -->
+                <input id="email" name="email" type="email" placeholder="Email Address" required>
+                <label for="email" id="email-label">Email: </label>
+
+                <input id="number" type="number" min="10" max="122" placeholder="10-122" required>
+                <!-- 7. I should be able to enter a number in a field with id="number" . -->
+                <!-- 8. if I enter non-numbers in the number input, I want to see an HTML5 validation error -->
+                <!-- 9. if I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error -->
+                <!-- 10. For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field -->
+                <!-- 11 .For the name, email, and number input fields, I want to see placeholder text that gives me a description or instructions for each field. -->
+                <label id="number-label" for="job">Age:</label>
+
+
+                <!-- 13. Inside the form element, I want to select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute -->
+                <p class="p-labels">Favorite Role:</p>
+                <input id="top" name="fav-role" type="radio" value="Top" />
+                <label for="top">Top/Baron Lane</label>
+
+                <input id="mid" name="fav-role" type="radio" value="Mid" />
+                <label for="mid">Mid</label>
+
+                <input id="jungle" name="fav-role" type="radio" value="Jungle" />
+                <label for="jungle">Jungle</label>
+
+                <input id="bottom" name="fav-role" type="radio" value="Bottom" />
+                <label for="bottom">Bottom/Dragon Lane</label>
+
+                <input id="support" name="fav-role" type="radio" value="Support" />
+                <label for="support">Support</label>
+
+                <!-- 12. Inside the form element, I want a select an option from a dropdown that has a corresponding id="dropdown" . -->
+                <select id="dropdown" name="experience">
+                    <option value="1 year">1 year or less</option>
+                    <option value="2 years">2 years</option>
+                    <option value="3-4 years">3 - 4 years</option>
+                    <option value="5 years above">5 years or more</option>
+                </select>
+
+                <label for="experience">Playing Experience:</label>
+
+                <p class="p-labels">Loved Champion/s:</p>
+
+                <!-- 14. Inside the form element, I want to select several fields from a series of checkboxes, each of which must have a value attribute. -->
+                <input id=" annie" name="fav-champ" type="checkbox" value="Annie" />
+                <label for="annie">Annie</label>
+
+                <input id="masteryi" name="fav-champ" type="checkbox" value="Master Yi" />
+                <label for="css">Master Yi</label>
+
+                <input id="garen" name="fav-champ" type="checkbox" value="Garen" />
+                <label for="garen">Garen</label>
+
+                <input id="janna" name="fav-champ" type="checkbox" value="Janna" />
+                <label for="janna">Janna</label>
+
+                <input id="ashe" name="fav-champ" type="checkbox" value="Ashe" />
+                <label for="ashe">Ashe</label>
+
+                <!-- 15. Inside the form element, I want to see a textarea at the end for additional comments. -->
+                <textarea id="comments" name="comments" rows="5" cols="20"
+                    placeholder="Write some thoughts..."></textarea>
+                <label for="comments">Additional Comments:</label>
+
+                <!-- 16. Inside the form element, I want to see a button with id="submit" to submit all my inputs. -->
+                <!-- 17. I can submit my inputs to the address bar. -->
+                <button id="submit" type="submit">Submit</button>
+
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
