@@ -24,7 +24,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 1. [Survey Form](https://sam-deguzman.github.io/batch5-activities/SurveyForm/index.html) - This is the final activity for HTML/CSS, I've sticked to the user stories, it's not that perfectly responsive on different screen sizes yet.
 
-1. [BMI Exercise](https://jsfiddle.net/samDg019/sdz8x3w0/) - An Exercise for Javascript Varibles and boolean. 
+
 <!---```### Support or Contact```--->
 
 <!---Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.--->
