@@ -10,13 +10,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <!---Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sam-DeGuzman/MainCourse-AvionSchool/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.--->
 ### Avion Projects/Exercises
 
-1. [Best Practices Page](https://sam-deguzman.github.io/batch5-activities/BestPracticePage/index.html) - This page has an information about a practice that is considered wise or best being a Software Engineer or Programmer.
+1. [Best Practices Page](https://sam-deguzman.github.io/batch5-activities/BestPracticePage/index.html) - First activity of the Avion main course, This page gives information about a practice that is considered wise or best being a Software Engineer or Programmer.
 
-1. [Letter Activity](https://sam-deguzman.github.io/MainCourse-AvionSchool/HTML_LetterActivity/index.html) - This page has been a good practice for the original purpose of HTML which is "Marking-up" of documents especially in the academic field.
+1. [Letter Activity](https://sam-deguzman.github.io/MainCourse-AvionSchool/HTML_LetterActivity/index.html) - This page has been a good practice for the original use/purpose of HTML which is to "Mark-up" documents especially in the academic field.
 
 1. [Tribute Page Project](https://sam-deguzman.github.io/batch5-activities/TributePageProject/index.html) - I created a Tribute Page for my Favorite Theologian, Dr. R.C Sproul, also got to practice more of CSS on this one.
 
-1. [Chess Board Flexbox](https://sam-deguzman.github.io/batch5-activities/ChessBoardinFlex/index.html) - This chessboard page should demonstrate both page responsiveness and Flexbox display style.
+1. [Chess Board Flexbox](https://sam-deguzman.github.io/batch5-activities/ChessBoardinFlex/index.html) - This chessboard is done using Flexbox display style.
 
 1. [Chess Board Grid](https://sam-deguzman.github.io/batch5-activities/ChessBoardinGrid/index.html) - I used the same style of the previous chessboard, I've edited images for the chess pieces, and used grid layout for the boxes this time.
 
@@ -24,9 +24,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 1. [Survey Form](https://sam-deguzman.github.io/batch5-activities/Calculator/index.html) - This is the final activity for HTML/CSS, I've just sticked to the user stories laid out.
 
-1. [JavaScript Calculator](https://sam-deguzman.github.io/batch5-activities/Calculator/index.html) - The first project using JavaScript DOM, this is quite challenging to do because the concept can be confusing, but so far I believe it works fine. 
+1. [JavaScript Calculator](https://sam-deguzman.github.io/batch5-activities/Calculator/index.html) - The first project using JavaScript DOM, this is quite challenging to do because the concept can be confusing. but so far, I believe it works fine. 
 
-1. [BMI Exercise](https://jsfiddle.net/samDg019/sdz8x3w0/7/) - An Exercise for Javascript Varibles and boolean.
+1. [BMI Exercise](https://jsfiddle.net/samDg019/sdz8x3w0/7/) - An Exercise for Javascript varibles and boolean.
 
 
 <!---```### Support or Contact```--->
