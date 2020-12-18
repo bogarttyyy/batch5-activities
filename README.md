@@ -22,9 +22,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 1. [Product Landing Page](https://sam-deguzman.github.io/batch5-activities/ProductLandingPage/index.html) - This is one of the final activities for HTML/CSS, I've tried different styles that I've learned so far, and also made sure the user stories are achieved.
 
-1. [Survey Form](https://sam-deguzman.github.io/batch5-activities/SurveyForm/index.html) - This is the final activity for HTML/CSS, I've sticked to the user stories, it's not that perfectly responsive on different screen sizes yet.
+1. [Survey Form](https://sam-deguzman.github.io/batch5-activities/Calculator/index.html) - This is the final activity for HTML/CSS, I've just sticked to the user stories laid out.
 
-1. [BMI Exercise](https://jsfiddle.net/samDg019/sdz8x3w0/) - An Exercise for Javascript Varibles and boolean. 
+1. [JavaScript Calculator](https://sam-deguzman.github.io/batch5-activities/Calculator/index.html) - The first project using JavaScript DOM, this is quite challenging to do because the concept can be confusing, but so far I believe it works fine. 
+
+1. [BMI Exercise](https://jsfiddle.net/samDg019/sdz8x3w0/7/) - An Exercise for Javascript Varibles and boolean.
+
+
 <!---```### Support or Contact```--->
 
 <!---Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.--->
