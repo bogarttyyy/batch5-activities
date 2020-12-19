@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Sam's GitHub Page
 
 [Edit this Page's Markdown](https://github.com/Sam-DeGuzman/batch5-activities/edit/main/README.md)
 
